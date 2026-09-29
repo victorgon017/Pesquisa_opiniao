@@ -10,8 +10,10 @@ for i in range(50):
         excelente = excelente + 1
     elif opiniao == 2:
         bom = bom + 1
-    else:
+    elif opiniao == 3:
         ruim = ruim + 1
+    else:
+        print("Opção inválida.")
 #saída
 print("Quantidade de avaliações excelentes:", excelente)
 print("Quantidade de avaliações ruins:", ruim)
